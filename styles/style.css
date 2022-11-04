@@ -40,6 +40,7 @@
   font-size: 102px;
   font-weight: 96px;
   border: 2px solid rgb(241, 27, 27);
+  z-index: 2;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
@@ -79,4 +80,18 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.two-colums{
+  margin: 100px;
+  border: 3px solid rgb(14, 63, 224);
+}
+.two-colums_brief{
+  border: 2px solid rgb(241, 27, 27);
+}
+
+.two-colums_main-text{
+  border: 2px solid rgb(241, 27, 27);
+}
+.two-colums_paragraph{
+  border: 2px solid rgb(27, 241, 63);
 }
