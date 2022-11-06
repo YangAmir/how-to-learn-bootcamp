@@ -35,8 +35,6 @@
   margin-left: 64px;
   width: 730px;
   font-size: 102px;
-  font-weight: 96px;
-
   z-index: 2;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -46,7 +44,6 @@
   font-size: 18px;
   line-height: 25px;
   position: absolute;
-  font-size: 18;
   width: 388px;
   bottom: 30px;
   left: 64px;
