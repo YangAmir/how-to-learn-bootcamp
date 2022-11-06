@@ -17,7 +17,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  border: 2px solid rgb(241, 27, 27);
+ 
   /* выше установили ограничения для секции */
 }
 
@@ -27,7 +27,7 @@
   width: 228px;
   top: 30px;
   left: 64px;
-  border: 2px solid rgb(241, 27, 27);
+  
 }
 
 
@@ -39,7 +39,7 @@
   width: 730px;
   font-size: 102px;
   font-weight: 96px;
-  border: 2px solid rgb(241, 27, 27);
+  
   z-index: 2;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -53,7 +53,7 @@
   width: 388px;
   bottom: 30px;
   left: 64px;
-  border: 2px solid rgb(241, 27, 27);
+  
   /* z-index: 1; */
 }
 .header__square-pic {
@@ -63,7 +63,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  border: 2px solid rgb(241, 27, 27);
+  
  
 }
 .main-illustration_pic {
@@ -72,26 +72,167 @@
   bottom: 0px;
   height: 608px;
   width: 765px;
-  border: 2px solid rgb(241, 27, 27);
+  
 }
 /* и элемента с модификатором вида ключ-значение */
+
+.description{
+
+   /* margin: 100 auto; */
+
+   
+}
+.two-colums{
+  margin-top: 100px;
+  /* margin: 100 auto; */
+  display: flex;
+  
+  justify-content: space-between;
+  /* width: 80%; */
+ 
+  
+}
+.two-colums__brief{
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  width: 175px;
+  color:  #2f80ed;
+  
+}
+
+.two-colums__main-text{
+
+  min-width:784px ;
+  width: 80%;
+  
+}
+.two-colums__paragraph{
+  
+  margin-top: 0px;
+  line-height: 34px;
+  font-size: 24px;
+  
+}
+.two-colums__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.digits{
+  margin-top: 100px;
+}
+.section-title{
+width: 60%;
+line-height: 1.15;
+font-size: 60px;
+font-weight: 600;
+margin: 0 auto;
+text-align: center;
+}
+.section-subtitle{
+  width: 60%;
+  margin: 20px auto 60px;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  
+
+}
+.table{
+  
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ /* костыль */
+/* .table__cell-margin{
+ 
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+} */
+.table__cell{
+  width: 250px;
+  
+}
+.table__cell:nth-of-type(n){
+margin-bottom:60px ;
+}
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.feynman{
+
+  position: relative;
+  margin-top: 100px;
+  background-color: #f2f2f2;
+  
+  
+}
+.feynman-illustration_pic{
+  width: 867px;
+  height: 637px;
+ 
+}
+.feynman__link{
+  
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight:normal;
+}
+.feynman__title{
+  margin: 100px auto;
+  text-align: center;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+ 
+}
+.feynman__subtitle{
+  
+  text-align: center;
+  line-height: 51px;
+  font-weight:normal;
+  font-size: 36px;
+  margin-top: 70px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+/* text-align: center; */
+}
+
+
+.kaufman{
+  border: 3px solid red;
+}
+/* key value primer */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-.two-colums{
-  margin: 100px;
-  border: 3px solid rgb(14, 63, 224);
-}
-.two-colums_brief{
-  border: 2px solid rgb(241, 27, 27);
-}
-
-.two-colums_main-text{
-  border: 2px solid rgb(241, 27, 27);
-}
-.two-colums_paragraph{
-  border: 2px solid rgb(27, 241, 63);
 }
