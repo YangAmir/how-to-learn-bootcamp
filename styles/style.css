@@ -200,6 +200,7 @@
   background-color: rgb(0, 0, 0);
   overflow: hidden;
   position: relative;
+  padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
@@ -220,6 +221,7 @@
   margin-right: 0;
   margin-top: 80px;
   z-index: 1;
+  
 }
 .table__heading_theme_dark {
   line-height: 1.15;
@@ -236,67 +238,75 @@
   height: 877px;
 }
 .footer {
+  display: flex;
   min-height: 350px;
-  padding: 60px 0 40px 0;
-  display: flex;
-  justify-content: center;
-  background-color: black;
- 
+  padding-top: 60px 0 40px 0; 
+  background-color: black; 
+  justify-content:center;
 }
 
-.footer_columns {
-  
+.footer__columns{
+  display: flex;
+  justify-content: space-between;
   width: 90%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.column-heading {
-  width: fit-content;
-  justify-content: flex-end;
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  line-height: 18px;
-  font-weight: 600;
-}
-.column-heading_social {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  width: fit-content;
-  /* justify-content: flex-end;
-  flex-direction: column; */
-}
-.column-links_link {
-  display: flex;
-  width: fit-content;
-  margin: 20px 0 16px 0;
-  color: #f2f2f2;
-  font-size: 20px;
-}
-.social__icons {
-  margin: 20px 0 16px 0;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  /* flex-direction: column;  */
 }
 .footer__column_content_copyright {
   display: flex;
-  padding: 18px 0 18px 0;
-  width: fit-content;
-  color: #f2f2f2;
-  align-self: flex-end;
-  
+  flex-direction: column;
+  justify-content: space-between;
   flex-basis: 711px;
+  color: #f2f2f2;
 }
-.cheat {
-  margin-left: 140px;
+.footer__column_content_info{
+  display: flex; 
+  flex-direction: column; 
+}
+.footer__column-heading{
+  display: flex; 
+  flex-direction: column; 
+  color: #f2f2f2;
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
-.logo_place_footer {
-  height: 32px;
+.footer__column-links{
+  padding: 20px 0 16px 0;
+  display: flex; 
+  flex-direction: column; 
+  font-size: 18px;
+  line-height: 30px;
+}
+.column-heading_social{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.social__icons{
+  padding: 20px 0 16px 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+.social__icons_link{
+  
+}
+.logo_place_footer_pic{
   width: 228px;
- 
+  height: 32px;
+}
+.author{
+  padding: 18px 0 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.logo_place_footer_pic {
-  /* position: absolute; */
-}
+
+
+
