@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./styles/normalize.css.css"/>
+  <link rel="stylesheet" href="./styles/normalize.css"/>
   <link rel="stylesheet" href="./styles/style.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Научиться учиться</title>
@@ -10,18 +10,18 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo_place_header">
-        <img class="logo_place_header_pic" src="./images/logo_place_header.svg" alt="лого" />
+      <div class="logo__place_header">
+        <img class="logo__place_header_pic" src="./images/logo_place_header.svg" alt="лого" />
       </div>
-      <h1 class="header_title">Научиться учиться</h1>
+      <h1 class="header__title">Научиться учиться</h1>
       <div class="header__square-pic"></div>
-      <div class="main-illustration">
-        <img class="main-illustration_pic" src="./images/header-image.png" alt="опять два?" />
-      </div>
-      <div class="header_subtitle">
+       
+        <img class="main__illustration_pic" src="./images/header-image.png" alt="опять два?" />
+      
+      <div class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете узнать в
         своей жизни?
-        <a href="#" class="header__subtitle__link">Узнать</a>
+        <a href="#" class="header__subtitle_link">Узнать &rarr;</a>
       </div>
     </header>
     <section class="description">
@@ -48,17 +48,17 @@
       </div>
     </section>
     <section class="digits">
-      <h1 class="section-title">Цифры и факты</h1>
+      <h2 class="section-title">Цифры и факты</h2>
       <p class="section-subtitle">Про учебу и мозг</p>
       <div class="table">
         <div class="table__cell">
           <h3 class="table__heading">86 миллиардов</h3>
-          <p class="tabble__text">Число нейронов в мозге человека</p>
+          <p class="table__text">Число нейронов в мозге человека</p>
         </div>
         <div class="table__cell">
           <h3 class="table__heading">2.1 миллиарда</h3>
           <p class="tabble__text">
-            Число нуждающихся в повышении квалификации Всемирный Банк, 2017
+           <p> Число нуждающихся в повышении квалификации Всемирный Банк, 2017</p> 
           </p>
         </div>
         <div class="table__cell">
@@ -75,8 +75,10 @@
         <div class="table__cell">
           <h3 class="table__heading">420 миллионов</h3>
           <p class="tabble__text">
-            Число взрослых людей моложе 25 лет, не имеющих образования для
+            <p>
+              Число взрослых людей моложе 25 лет, не имеющих образования для
             трудоустройства Всемирный Банк, 2017
+            </p> 
           </p>
         </div>
         <div class="table__cell">
@@ -94,17 +96,17 @@
       </div>
     </section>
     <section class="feynman">
-      <h1 class="feynman__title">Метод Фейнмана</h1>
+      <h2 class="feynman__title">Метод Фейнмана</h2>
       <h2 class="feynman__subtitle">Выучить и не забыть.</h2>
-      <a class="feynman__link" href="#">Подробнее</a>
+      <a class="feynman__link" href="#">Подробнее &rarr;</a>
       <div class="feynman-illustration">
         <img class="feynman-illustration_pic" src="./images/feynman.png" alt="Фейнман" />
       </div>
     </section>
     <section class="kaufman">
-      <h1 class="section-title section-title_theme_dark">
+      <h2 class="section-title section-title_theme_dark">
         Принципы обучения
-      </h1>
+      </h2>
       <p class="section-subtitle section-subtitle_theme_dark">
         от Джоша Кауфмана
       </p>
@@ -170,50 +172,44 @@
           </p>
         </div>
       </div>
-      <div class="kaufman_triangle">
+      <div class="kaufman__triangle">
         <img src="./images/kaufman-triangle.svg" alt="три" />
       </div>
     </section>
     <footer class="footer">
     <div class="footer__columns">
-      <!-- /// -->
-     <div class="footer__column_content_copyright">
-      <div class="logo_place_footer">
-        <img class="logo_place_footer_pic" src="./images/logo_place_footer.svg" alt="лого" />
-      </div>
-      <div class="author">
+     <div class="footer__column__content_copyright"class="author" class="logo_place_footer">
+      <img class="logo__place_footer_pic" src="./images/logo_place_footer.svg" alt="лого" />
         <p>
-          &copy Amir
+          &copy; Amir
         </p>
-      </div>
      </div>
-    <!-- //////// -->
-     <div class="footer__column_content_info">
+     <nav class="footer__column__content_info">
        <div class="footer__column-heading">
-        О Практикуме
+       О Практикуме
       </div>
         <div class="footer__column-links">
-            <a class="column-links_link" href="#">
+            <a class="column-links__link" href="#">
               Главная
             </a>
-            <a class="column-links_link" href="#">
+            <a class="column-links__link" href="#">
               Концепция
             </a>
-            <a class="column-links_link" href="#">
+            <a class="column-links__link" href="#">
               Наставники
             </a>
       </div>
-    </div>
-    <div class="column-heading_social">
+    </nav>
+    <div class="column-heading__social">
       Соцсети
-      <div class="social__icons">
-        <a class="social__icons_link" href="#">
+      <div class="social-icons">
+        <a class="social-cons__link" href="#">
           <img class="footer-icon" src="./images/youtube-icon.svg" alt="ютуб">youtube
         </a>
-        <a class="social__icons_link" href="#">
+        <a class="social-icons__link" href="#">
           <img class="footer-icon" src="./images/vk_color_white.svg" alt="ВК">ВКонтакте
         </a>
-        <a class="social__icons_link" href="#">
+        <a class="social-icons__link" href="#">
           <img class="footer-icon" src="./images/tiktok-icon.svg" alt="эссхол">Tik-Tok
         </a>
       </div>
@@ -225,49 +221,4 @@
 </html>
 
 
-<!-- 
-  <div class="footer__column_content_copyright"> 
-    <div class="author">
-      <p>
-        &copy Amir
-      </p>
-    </div>
-</div>
-<div class="logo_place_footer">
-  <img class="logo_place_footer_pic" src="./images/logo_place_footer.svg" alt="лого" />
-</div>
-  <div class="footer_columns">
-    <div class="column-heading">
-      О Практикуме
-      <div class="footer__column-links">
-        <div class="column-links">
-          <a class="column-links_link" href="#">
-            Главная
-          </a>
-          <a class="column-links_link" href="#">
-            Концепция
-          </a>
-          <a class="column-links_link" href="#">
-            Наставники
-          </a>
-        </div>
-      </div>
-    </div>
-      <div class="cheat"></div>
-    <div class="column-heading_social">
-      Соцсети
-      <div class="social__icons">
-        <a class="social__icons_link" href="#">
-          <img class="footer-icon" src="./images/youtube-icon.svg" alt="youtube-icon">ютуб
-        </a>
-        <a class="social__icons_link" href="#">
-          <img class="footer-icon" src="./images/vk_color_white.svg" alt="ВК">ВКонтакте
-        </a>
-        <a class="social__icons_link" href="#">
-          <img class="footer-icon" src="./images/tiktok-icon.svg" alt="эссхол">Tik-Tok
-        </a>
-      </div>
-      </div>
-    </div> -->
-  
- 
+

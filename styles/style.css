@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -16,11 +20,9 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-
-  /* выше установили ограничения для секции */
 }
 
-.logo_place_header_pic {
+.logo__place_header_pic {
   position: absolute;
   height: 32px;
   width: 228px;
@@ -28,7 +30,7 @@
   left: 64px;
 }
 
-.header_title {
+.header__title {
   align-self: center;
   font-weight: 600;
   line-height: 96px;
@@ -37,9 +39,9 @@
   font-size: 102px;
   z-index: 2;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
-.header_subtitle {
+
+.header__subtitle {
   font-style: normal;
   font-size: 18px;
   line-height: 25px;
@@ -48,7 +50,7 @@
   bottom: 30px;
   left: 64px;
 
-  /* z-index: 1; */
+
 }
 .header__square-pic {
   position: absolute;
@@ -58,21 +60,22 @@
   width: 568px;
   background-color: #2f80ed;
 }
-.main-illustration_pic {
+.main__illustration_pic {
   position: absolute;
   right: 0;
   bottom: 0px;
   height: 608px;
   width: 765px;
+  object-fit: fill;
 }
-/* и элемента с модификатором вида ключ-значение */
+
 
 .description {
-  /* margin: 100 auto; */
+
 }
 .two-colums {
+  margin: auto;
   margin-top: 100px;
-  /* margin: 100 auto; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -80,6 +83,7 @@
 }
 .two-colums__brief {
   margin-top: 0;
+  margin-bottom: 0;
   font-size: 18px;
   line-height: 1.2;
   width: 175px;
@@ -129,17 +133,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* костыль */
-/* .table__cell-margin{
- 
-  width: 1100px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 60px;
-  margin-bottom: 60px;
-} */
+
 .table__cell {
   width: 250px;
 }
@@ -158,6 +152,7 @@
 }
 
 .feynman {
+  box-sizing: border-box;
   position: relative;
   margin-top: 100px;
   background-color: #f2f2f2;
@@ -188,12 +183,11 @@
   font-weight: normal;
   font-size: 36px;
   margin-top: 70px;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  /* text-align: center; */
+  
 }
 
 .kaufman {
@@ -201,11 +195,11 @@
   overflow: hidden;
   position: relative;
   padding-bottom: 90px;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
   width: 60%;
-
   margin-top: 90px;
   color: #f2f2f2;
 }
@@ -214,7 +208,7 @@
   margin-top: 20px;
   color: white;
 }
-/* key value primer */
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -229,12 +223,13 @@
   color: #f2f2f2;
   margin-bottom: 20px;
 }
-.kaufman_triangle {
+.kaufman__triangle {
   position: absolute;
   right: -210px;
   top: 0;
   width: 877px;
   height: 877px;
+  z-index: -1;
 }
 .footer {
   display: flex;
@@ -249,16 +244,15 @@
   justify-content: space-between;
   width: 90%;
   flex-direction: row;
-  /* flex-direction: column;  */
 }
-.footer__column_content_copyright {
+.footer__column__content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
   color: #f2f2f2;
 }
-.footer__column_content_info {
+.footer__column__content_info {
   display: flex;
   flex-direction: column;
 }
@@ -278,7 +272,7 @@
   font-size: 18px;
   line-height: 30px;
 }
-.column-heading_social {
+.column-heading__social {
   color: aliceblue;
   display: flex;
   flex-direction: column;
@@ -286,15 +280,16 @@
   line-height: 30px;
   font-weight: 600;
 }
-.social__icons {
+.social-icons {
   padding: 20px 0 16px 0;
   display: flex;
   flex-direction: column;
   line-height: 30px;
 }
-.social__icons_link {
+.social-icons__link {
+
 }
-.logo_place_footer_pic {
+.logo__place_footer_pic {
   width: 228px;
   height: 32px;
 }
