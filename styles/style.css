@@ -106,7 +106,71 @@
   font-style: normal;
   font-weight: 600;
 }
-
+.techniques{
+  margin-top: 100px;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 80%;
+  border: solid red;
+  border: solid red;
+}
+.section-title__techniques{
+  margin-top: 100px;
+  width: 60%;
+  border: solid red;
+}
+.section-subtitle__techniques{
+  width: 60%;
+  border: solid red;
+}
+.cards{
+  border: solid red;
+  /* width: 80%; */
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  padding: 0;
+}
+.cards__item{
+  padding: 0;
+  max-width: 250px;
+  text-align: center;
+  width: 920px;
+}
+.cards__image{
+  border-radius: 50%;
+  height:160px;
+  width:160px;
+  margin: 60px 40px 43px 40px;
+}
+.cards__title{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cards__description{
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.video{
+  margin-top: 100px;
+  border: solid red;
+  text-align: center;
+}
+.video__iframes{
+  border: 5px solid rgb(0, 255, 34);
+  
+  
+}
+/* #id ytplayer{
+display: flex;
+  justify-content: space-between;
+} */
+.oakley{
+  margin-top: 160px;
+}
 .digits {
   margin-top: 100px;
 }
@@ -150,7 +214,61 @@
   font-size: 18px;
   font-style: normal;
 }
+.khan{ 
+  margin-top: 100px;
+  background-color: #f2f2f2;
+  /* костыль */
+  border: solid #f2f2f2;
+}
+.khan__container{
+  margin: 105px auto 0 auto;
+  max-width: 80%;
+ 
+}
+.khan__book-container{
+  margin-top: 68px;
+  display: flex;
+  
+}
+.khan__auhor{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+.khan__title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.khan__quote{
+  width: 790px;
+  margin: 50px 0 36px 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
 
+.khan__quote-author{
+  margin-bottom: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.khan__quote-auhor-subline{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+.khan__book-pic{
+  width: 608px;
+  height: 620px;
+}
+.khan__buy-link{
+  margin-left: 48px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
 .feynman {
   box-sizing: border-box;
   position: relative;
@@ -185,9 +303,6 @@
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
-  
 }
 
 .kaufman {
@@ -201,7 +316,7 @@
 .section-title_theme_dark {
   width: 60%;
   margin-top: 90px;
-  color: #f2f2f2;
+  color: #fff;
 }
 .section-subtitle_theme_dark {
   width: 60%;
@@ -220,7 +335,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  color: #f2f2f2;
+  color: #fff;
   margin-bottom: 20px;
 }
 .kaufman__triangle {
@@ -231,6 +346,19 @@
   height: 877px;
   z-index: -1;
 }
+.resources{
+  margin-top: 100px;
+}
+.resources__logo-zone{
+  width: 1100px;
+  margin: auto;
+}
+.resources__link{
+  width: ;
+  margin: 80px auto 217px auto;
+  display: flex;
+  justify-content: space-between;
+}
 .footer {
   display: flex;
   min-height: 350px;
@@ -240,17 +368,20 @@
 }
 
 .footer__columns {
+  margin-top: 60px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   width: 90%;
   flex-direction: row;
+  box-sizing: border-box;
 }
 .footer__column__content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
-  color: #f2f2f2;
+  color: #fff;
 }
 .footer__column__content_info {
   display: flex;
@@ -259,7 +390,7 @@
 .footer__column-heading {
   display: flex;
   flex-direction: column;
-  color: #f2f2f2;
+  color: #fff;
   font-weight: 600px;
   font-size: 18px;
   line-height: 30px;
@@ -273,7 +404,7 @@
   line-height: 30px;
 }
 .column-heading__social {
-  color: aliceblue;
+  color: #fff;
   display: flex;
   flex-direction: column;
   font-size: 18px;
@@ -287,7 +418,9 @@
   line-height: 30px;
 }
 .social-icons__link {
-
+  text-decoration: none;
+  color: white;
+  display: flex;
 }
 .logo__place_footer_pic {
   width: 228px;
@@ -298,4 +431,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+}
+.footer-icon{
+  padding-right: 10px;
 }
