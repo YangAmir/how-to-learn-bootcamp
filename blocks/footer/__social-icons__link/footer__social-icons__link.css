@@ -1,0 +1,5 @@
+.footer__social-icons__link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}

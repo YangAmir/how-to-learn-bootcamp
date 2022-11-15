@@ -1,0 +1,14 @@
+.footer__column__content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+  color: #fff;
+}
+
+.author {
+  padding: 18px 0 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
