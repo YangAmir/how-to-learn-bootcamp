@@ -1,7 +1,9 @@
-.footer__column-links {
+.social__icons {
   padding: 20px 0 16px 0;
   display: flex;
   flex-direction: column;
-  font-size: 18px;
   line-height: 30px;
+}
+.footer-icon {
+  padding-right: 10px;
 }
