@@ -4,11 +4,11 @@
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__rotation.css);
+@import url(../blocks/header/rotation.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/table_cell.css);
 @import url(../blocks/kaufman/table.css);
-@import url(../blocks/kaufman/__rotation.css);
+@import url(../blocks/kaufman/rotation.css);
 @import url(../blocks/kaufman/section-title/section-title.css);
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/logo/logo.css);
