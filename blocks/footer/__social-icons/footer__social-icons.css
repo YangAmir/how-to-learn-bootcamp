@@ -4,6 +4,10 @@
   flex-direction: column;
   line-height: 30px;
 }
-.footer__social-icon {
+.social__icons_link {
+  text-decoration: none;
+  color: white;
+}
+.footer-icon {
   padding-right: 10px;
 }
