@@ -3,6 +3,6 @@
   line-height: 51px;
   font-weight: normal;
   font-size: 36px;
-  margin-top: 20px;
-  margin: 20px auto;
+  box-sizing: border-box;
+  margin-top: 70px;
 }
