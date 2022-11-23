@@ -3,26 +3,24 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link rel="stylesheet" href="./vendor/normalize.css" />
   <link rel="stylesheet" href="./pages/index.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Научиться учиться</title>
 </head>
 
 <body>
-  <div class="page">
+  <main class="page">
     <header class="header">
-      <div class="logo logo_place_header">
         <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="лого" />
-      </div>
       <h1 class="header__title">Научиться учиться</h1>
       <div class="header__square-pic rotation"></div>
       <img class="header__main-illustration" src="./images/header-image.png" alt="опять два?" />
-      <div class="header__subtitle">
+      <h2 class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете узнать в
         своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
-      </div>
+      </h2>
     </header>
     <section class="description">
       <div class="two-columns">
@@ -59,50 +57,48 @@
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-attention.png" alt="внимание" />
           <h3 class="cards__title">Два вида внимания</h3>
-          <p class="cards__description"></p>
-          Глубокие знания возникают, если чередовать сфокусированное и
-          рассеянное мышление.
+          <p class="cards__description"> Глубокие знания возникают, если чередовать сфокусированное и
+          рассеянное мышление.</p>
+         
         </li>
 
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-recall.png" alt="внимание" />
           <h3 class="cards__title">Recall</h3>
-          <p class="cards__description"></p>
-          Вспоминайте изученное — это позволит соединить разрозненные порции
-          памяти.
+          <p class="cards__description"> Вспоминайте изученное — это позволит соединить разрозненные порции
+          памяти.</p>
+         
         </li>
 
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-interliving.png" alt="рекол" />
           <h3 class="cards__title">Интерливинг</h3>
-          <p class="cards__description"></p>
-          Изучайте несколько навыков одновременно, они обогащают друг друга.
+          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          
         </li>
 
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-question.png" alt="рекол" />
           <h3 class="cards__title">Вопросы</h3>
-          <p class="cards__description"></p>
-          Слушая преподавателя, придумывайте хороший вопрос, который вас
-          действительно волнует.
+          <p class="cards__description">  Слушая преподавателя, придумывайте хороший вопрос, который вас
+          действительно волнует.</p>
+        
         </li>
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-competence.png" alt="рекол" />
           <h3 class="cards__title">Иллюзия компетентности</h3>
-          <p class="cards__description"></p>
-          Повторите про себя, запишите, расскажите другу: вам только кажется,
-          что вы владеете новой темой.
+          <p class="cards__description">   Повторите про себя, запишите, расскажите другу: вам только кажется,
+          что вы владеете новой темой.</p>
         </li>
       </ul>
     </section>
-
     <section class="video">
       <h2 class="section-title">Видео нa TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
       <div class="video__iframes">
-        <iframe id="ytplayer" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>
+        <iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>
         </iframe>
-        <iframe id="ytplayer1" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>
+        <iframe class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>
         </iframe>
       </div>
     </section>
@@ -125,9 +121,8 @@
     </section>
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
-      <h2 class="feynman__subtitle">Выучить и не забыть.</h2>
+      <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
       <a class="feynman__link" href="#">Подробнее &rarr;</a>
-      <img class="feynman-illustration" src="./images/feynman.png" alt="Фейнман" />
     </section>
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
@@ -271,22 +266,18 @@
         <img src="./images/kaufman-triangle.svg" alt="три" />
       </div>
     </section>
-    <!-- РЕСУРЫ -->
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">
         Больше материалов о техниках и лайфхаках обучения
       </p>
       <div class="resources__logo-zone">
-        <div class="resources__link">
-          <a href="#"><img src="./images/logo/resources-arzamas.svg" alt="арзама" /></a>
-          <a href=""><img src="./images/logo/resources-n1.svg" alt="н+1" /></a>
-          <a href=""><img src="./images/logo/resources-strelka.svg" alt="стрелка" /></a>
-          <a href=""><img src="./images/logo/resources-polka.svg" alt="лолка" /></a>
-        </div>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="арзама" /></a>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="н+1" /></a>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="лолка" /></a>
+          <a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="стрелка" /></a>
       </div>
     </section>
-    <!-- РЕСУРЫ -->
     <footer class="footer">
       <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
@@ -319,6 +310,6 @@
     </div>
     </div>
     </footer>
-  </div>
+  </main>
 </body>
 </html>
