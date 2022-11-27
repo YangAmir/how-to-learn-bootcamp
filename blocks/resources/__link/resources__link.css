@@ -1,12 +1,7 @@
 .resources__link {
-  width: 270px;
-   height: 38px;
-  margin: 80px auto 217px auto;
-  display: flex;
-  justify-content: space-between;
+
 }
-.resources__link :hover{
-  background-color: #f2f2f2;
+.resources__link:hover{
   transition: background-color 0.6s;
   opacity: 0.5;
 }

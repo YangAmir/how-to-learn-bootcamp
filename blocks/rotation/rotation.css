@@ -8,6 +8,6 @@
 } 
 
 .rotation{
-  animation: rotation 30s ease-in-out infinite;
+  animation: rotation 20s linear infinite;
 } 
 

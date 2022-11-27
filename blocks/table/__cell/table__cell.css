@@ -1,6 +1,4 @@
 .table__cell {
   width: 250px;
-}
-.table__cell:nth-of-type(n) {
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
